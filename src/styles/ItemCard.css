@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  justify-content: space-between; /* предмет слева, корзина справа */
+  align-items: center;            /* выравниваем по вертикали */
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #1E90FF;
+  color: #191970; 
+   height: auto;
+
+  
+}
+
+.item-title {
+  margin: 0; 
+  font-size: 18px;
+  font: #191970;
+}
+
+.delete-icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2); /* небольшое увеличение при наведении */
+}

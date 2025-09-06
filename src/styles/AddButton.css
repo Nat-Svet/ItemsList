@@ -1,0 +1,29 @@
+.add-button-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #1E90FF;
+  color: #191970;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #1E90FF;
+  color: #191970 ;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #1E90FF;
+}

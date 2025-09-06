@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: #ADD8E6;
+    border: solid, 6px, #191970;
+    border-radius: 10px;
+
+}
+
+.list-title {
+    color: #191970;
+
+}
+
+.list-container {
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
